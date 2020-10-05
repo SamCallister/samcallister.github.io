@@ -1,0 +1,21 @@
+# Site settings
+title:       Sam Callister
+email:       scottishsam@gmail.com
+author:      Sam Callister
+description: "Portfolio"
+baseurl:     ""
+url:         "https://samcallister.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.20.2"
+
+# Build settings
+plugins:
+  - jekyll-include-cache
+markdown: kramdown
+# https://github.com/jekyll/jekyll/issues/2938
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+include:
+  - _pages

@@ -14,7 +14,7 @@ date: 2022-01-15T11:48:41-04:00
 <script type="text/javascript" src="{{ site.baseurl }}/assets/book_game/bookGame.js"></script>
 <script type="text/javascript">
 document.addEventListener("DOMContentLoaded", function(event) { 
-bookGame.buildGame('{{ site.baseurl }}/assets/book_game', 'word-game');
+bookGame.buildGame('{{ site.baseurl }}/assets/book_game', 'word-game', '{{ site.baseurl }}/projects/book-trivia-game-about');
 });
 
 </script>

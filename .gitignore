@@ -6,4 +6,3 @@ _site/
 assets/.DS_Store
 node_modules/
 vendor
-assets/js

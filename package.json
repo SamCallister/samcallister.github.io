@@ -1,5 +1,53 @@
 {
     "name": "SamBlog",
-    "dependencies": {},
-    "devDependencies": {}
+    "scripts": {
+        "start": "./node_modules/.bin/webpack --watch --incremental --config webpack.dev.js | bundle exec jekyll serve --livereload",
+        "build": "./node_modules/.bin/webpack --config webpack.prod.js",
+        "pack": "./node_modules/.bin/webpack",
+        "lint": "npx eslint src"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@date-io/date-fns": "^1.3.13",
+        "@date-io/moment": "^1.3.13",
+        "@material-ui/core": "4.9.8",
+        "@material-ui/pickers": "3.2.10",
+        "@material-ui/styles": "^4.0.0",
+        "d3": "^7.9.0",
+        "d3-simple-slider": "^2.0.0",
+        "date-fns": "^2.14.0",
+        "focus-visible": "^5.2.0",
+        "install": "^0.13.0",
+        "lodash": "^4.17.15",
+        "moment": "^2.27.0",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-input-number-editor": "^1.0.8",
+        "react-select": "^3.1.0",
+        "science": "^1.9.3",
+        "style-loader": "^1.2.1",
+        "tippy.js": "^6.3.1",
+        "webpack-merge": "^4.2.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.6",
+        "@babel/node": "^7.8.7",
+        "@babel/preset-env": "^7.9.6",
+        "@babel/preset-react": "^7.9.4",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-loader": "^8.1.0",
+        "babel-preset-react-app": "^9.1.2",
+        "css-loader": "^7.1.2",
+        "eslint": "^7.7.0",
+        "eslint-plugin-react": "^7.20.3",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    }
 }

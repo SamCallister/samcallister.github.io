@@ -16,6 +16,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - src
+  - node_modules
 
 include:
   - _pages

@@ -1,10 +1,36 @@
 ---
-layout: single
-title: "Vizlit Dataviz Blog"
-date: 2020-09-29 17:17:57 -0700
-permalink: /projects/vizlit
+title: "Projects"
+layout: splash
+permalink: /projects/dataviz
+date: 2020-06-15T11:48:41-04:00
+feature_row:
+  - image_path: assets/images/reference-books-on-shelves.jpg
+    alt: "stock market"
+    title: "S&P Best of Times Worst of Times"
+    excerpt: "Investment wizards tell us regular folks to buy and hold index funds..."
+    url: "/projects/sp-performance"
+    btn_label: "Read"
+    btn_class: "btn--primary"
+  - image_path: assets/images/graveyard.jpg
+    alt: "life expectancy"
+    title: "Death of a Peer Group"
+    excerpt: "The expected timetable for the demise of Americans born in 1990"
+    url: "/projects/life-expectancy"
+    btn_label: "Read"
+    btn_class: "btn--primary"
+  - image_path: assets/images/money-amortization.jpg
+    alt: "amortization"
+    title: "Amortization Visualized"
+    excerpt: "The majority of consumer debt in America is housing related..."
+    url: "/projects/amortization"
+    btn_label: "Read"
+    btn_class: "btn--primary"
 ---
 
-I love making interactive data visualizations on the web for topics I find interesting. My brother [Adam Callister](https://adamhenrycallister.github.io/) shares this interest, and so I asked him to collaborate on [Vizlit](https://www.vizlit.com)--a data viz blog project. We each write our own articles and make our own visualizations, but enjoy getting feedback from one another.
+<style>
+  .masthead {
+    border-bottom: none;
+  }
+</style>
 
-My favorite post so far is [S&P Best of Times Worst of Times](https://www.vizlit.com/finance/2020/07/01/sp-performance.html). The post contains an interactive viz I built which allows viewing the historical distribution of returns from the S&P for many different time intervals.
+{% include feature_row %}

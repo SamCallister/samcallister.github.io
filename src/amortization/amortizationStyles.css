@@ -1,0 +1,61 @@
+:root {
+	--bottom-rect-text: 0.9em;
+}
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 62%;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.svg-responsive {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.interest-rect {
+	fill: crimson;
+	opacity: 0.5;
+}
+
+.principal-rect {
+	fill: #85C1E9;
+	opacity: 0.5;
+}
+
+.bottom-rect-text {
+	font-size: var(--bottom-rect-text);
+}
+
+.principal-text {
+	text-anchor: end;
+	font-size: var(--bottom-rect-text);
+}
+
+.total-paid-text {
+	text-anchor: middle;
+	font-size: 0.9em;
+}
+
+.year-month-text {
+	text-anchor: start;
+	font-size: 1em;
+}
+
+.monthly-payment-text-group {
+	text-anchor: middle;
+}
+
+.clickable {
+	cursor: pointer;
+	pointer-events: bounding-box;
+}
+
+.MuiTypography-root.MuiTypography-body1.MuiTypography-colorTextSecondary {
+	margin: 0px;
+}

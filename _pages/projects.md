@@ -12,10 +12,10 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/vizlit-icon.png
-    alt: "Dataviz blog"
-    title: "Dataviz blog Vizlit"
+    alt: "Dataviz Articles"
+    title: "Dataviz Articles"
     excerpt: "Data visualization based articles"
-    url: "/projects/vizlit"
+    url: "/projects/dataviz"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/book_game.png

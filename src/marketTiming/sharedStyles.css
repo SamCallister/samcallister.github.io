@@ -1,0 +1,145 @@
+:root {
+	--best-color: #2E8B57;
+	--worst-color:#DC143C;
+	--med-color:#8B4513;
+	--grey-color:grey;
+  }
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 62%;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.svg-responsive {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: var(--worst-color);
+}
+
+.best-fill {
+	fill:var(--best-color);
+}
+
+.worst-fill {
+	fill:var(--worst-color);
+}
+
+.best-text {
+	color:var(--best-color);
+}
+
+.median-text {
+	color: var(--med-color);
+}
+
+.worst-text {
+	color: var(--worst-color);
+}
+
+.market-event-text {
+	text-anchor: middle;
+	font-size: 0.4em;
+	fill: var(--grey-color);
+}
+
+.line {
+	fill: none;
+	stroke-width: 2;
+	stroke: #888888;
+}
+
+.best-line {
+	fill: none;
+	stroke-width: 2;
+	stroke: var(--best-color);
+}
+
+.median-line {
+	fill: none;
+	stroke-width: 2;
+	stroke: var(--med-color);
+}
+
+.worst-line {
+	fill: none;
+	stroke-width: 2;
+	stroke: var(--worst-color);;
+}
+
+.line-label {
+	font-size: 0.6em;
+}
+
+.kde-line {
+	stroke: black;
+	stroke-width: 2;
+	fill: none;
+}
+
+.legend-group {
+	font-size: 0.6em;
+	stroke-width: 2;
+}
+
+.bestText {
+	text-anchor: middle;
+}
+
+.positivePercent {
+	fill: var(--best-color);
+}
+
+.title-text {
+	text-anchor: middle;
+}
+
+
+.interval-text {
+	font-size: 0.5em;
+	text-anchor: middle;
+}
+
+.zero-line {
+	stroke: var(--grey-color);
+	stroke-dasharray: 5 3;
+}
+
+.xaxis-text {
+	text-anchor: middle;
+	font-size: 0.7em;
+}
+
+.xaxis {
+	font-size: 0.7em;
+}
+
+.yaxis {
+	font-size: 0.7em;
+}
+
+.yaxis-text {
+	text-anchor: middle;
+	font-size: 0.7em;
+}
+
+input[readonly] {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.invest-input {
+	width: 128px;
+}

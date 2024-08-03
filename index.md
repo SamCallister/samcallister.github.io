@@ -9,4 +9,4 @@ date: 2023-03-13 17:17:57 -0700
 
 Hello there! My name is Sam Callister and this is my personal site. If you have an opportunity you think I should consider, please contact me on [linkedIn](https://www.linkedin.com/in/sam-callister-3287527b).
 
-[Here]({{ site.baseurl }}/projects) are some of my projects. My latest project is an [online multiplayer fill in the blank quote game]({{ site.baseurl }}/projects/trivia-quote-game-about) you can [play here](https://triviaquote.com){:target="_blank"}.
+[Here]({{ site.baseurl }}/projects) are some of my projects.
